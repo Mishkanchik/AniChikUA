@@ -10,9 +10,13 @@ forwardButton.addEventListener('click', () => (video.currentTime += 10));
 
 episodeButtons.forEach(button => {
     button.addEventListener('click', () => {
-        const newSrc = button.getAttribute('data-src');
-        video.src = newSrc;
        
+        document.querySelector('.episode-list button.active')?.classList.remove('active');
+        button.classList.add('active');
+
+      
+        video.src = button.getAttribute('data-src');
+        
     });
 });
 

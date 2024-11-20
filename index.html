@@ -8,9 +8,6 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Oxanium:wght@200..800&family=Pacifico&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Tiny5&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Oxanium:wght@200..800&family=Pacifico&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Tiny5&display=swap" rel="stylesheet">
     <title>AniChikUA</title>
 </head>
@@ -18,14 +15,17 @@
    
     <div class="background"></div>
     <header>
-        <img width="100px" src="./image-Icon/icon.png" alt="logo">
-        <h1 class="logo-name">AniChik</h1>
+        <div class="container">
+            <img width="100px" src="./image-Icon/icon.png" alt="logo">
+            <h1 class="logo-name">AniChik</h1>
+        </div>
+        
     </header>
     <div class="center">
         <div class="anime-name-box">
             <img src="./anime-Image/reZero3SeasonLogo.jpg" alt="Re-Zero-3">
             <div>
-                <h1>
+                <h1 class="anime-name">
                     Переродження: життя з нуля в іншому світі | Сезон 3
                 </h1>
                 <h2>
@@ -52,7 +52,7 @@
             <img src="./Screenshot-Image/ReZero3Screenshot4.jpg" alt="Скріншот 4" class="zoomable">
         </div>
         <div class="episode-list">
-            <button data-src="https://dl.dropboxusercontent.com/scl/fi/lqn2d2dk0uazns3vxcga7/Re-Zero-3-01-1080p-Amanogawa.mp4?rlkey=xal3rdvhawnurif9llxqolwbb&st=ec61k9t6&dl=0" >Серія 1</button>
+            <button data-src="https://dl.dropboxusercontent.com/scl/fi/lqn2d2dk0uazns3vxcga7/Re-Zero-3-01-1080p-Amanogawa.mp4?rlkey=xal3rdvhawnurif9llxqolwbb&st=ec61k9t6&dl=0" class="active">Серія 1</button>
             <button data-src="https://dl.dropboxusercontent.com/scl/fi/xr8jgk8heqdxtv7kzvwa2/Re-Zero-3-02-1080p-Amanogawa.mp4?rlkey=l6o1q5hz7d97q26zwt8omcwbu&st=q7mspxzo&dl=0">Серія 2</button>
             <button data-src="https://dl.dropboxusercontent.com/scl/fi/do1bl2c7mi6pxdcsu81vx/Re-Zero-3-03-1080p-Amanogawa.mp4?rlkey=lvwbuhxabf4fjfxdx653h0oyp&st=6p37onu5&dl=0">Серія 3</button>
             <button data-src="https://dl.dropboxusercontent.com/scl/fi/3ijhalataayfjb6yxw5fw/Re-Zero-3-04-1080p-Amanogawa.mp4?rlkey=xh41g2fbez86fg4y70rwme7vt&st=36hiz0k0&dl=0">Серія 4</button>
