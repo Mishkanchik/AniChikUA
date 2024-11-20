@@ -285,7 +285,7 @@ body.zoom-active {
     }
     .center {
         width: 100%;
-        margin: 70px auto;
+        margin: 0px auto;
         padding: 15px;
         background: #393a3f;
         color: #fff;
@@ -294,6 +294,7 @@ body.zoom-active {
 }
 
 @media (max-width: 768px) {
+
     .zoomable {
         pointer-events: none; 
         cursor: default; 
@@ -312,7 +313,7 @@ body.zoom-active {
 
     .center {
         width: 100%;
-        margin: 70px auto;
+        margin: 0px auto;
         padding: 15px;
         background: #393a3f;
         color: #fff;
