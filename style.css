@@ -14,7 +14,9 @@ body, html {
     
    
 }
-
+h1{
+    vertical-align: 5px;
+}
 
 h2{
     margin: 20px 0;
@@ -295,6 +297,10 @@ body.zoom-active {
 
 @media (max-width: 768px) {
 
+    .controls {
+        left: 89%;
+      
+    }
     .zoomable {
         pointer-events: none; 
         cursor: default; 
@@ -313,7 +319,7 @@ body.zoom-active {
 
     .center {
         width: 100%;
-        margin: 0px auto;
+        
         padding: 15px;
         background: #393a3f;
         color: #fff;
@@ -364,6 +370,12 @@ body.zoom-active {
 }
 
 @media (max-width: 480px) {
+
+    .controls {
+        top: 20px;
+        left: 88%;
+      
+    }
     header img {
         width: 50px;
     }
